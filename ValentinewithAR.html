@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Ebmedded WebAR Experience through echoAR</title>
+        <style>
+            #background {
+                top: 0;
+                left: 0;
+                position: fixed;
+                width: 100%;
+                height: 100%;
+                background-color: pink;
+                z-index: -1;
+            }
+            h1 {
+                position: relative;
+                color: white;
+                text-align: center;
+                font-size: 5vh;
+		            font-family: Arial, Helvetica, sans-serif;
+            }
+            iframe {
+                position: relative;
+                width: 100%;
+                height: 75vh;
+            }
+        </style>
+    </head>
+    <body >
+	    <div id="background"></div>
+        <h1>A little something new for you to try this Valentine's day</h1>
+        <iframe
+           src="https://console.echoar.xyz/webar?key=blue-haze-0694&entry=b27d6c7a-5cbe-4cf2-a912-a9d20a6dd045"
+           title="echoAR WebAR iframe element">
+        </iframe>
+<h1><center><a href="https://go.echoar.xyz/kDPR">Try it yourself</a></h1>
+    </body>
+</html>
